@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="offset_y">300dp</dimen>
+    <dimen name="app_bar_height">350dp</dimen>
+</resources>

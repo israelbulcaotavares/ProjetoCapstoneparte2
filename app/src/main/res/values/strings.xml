@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Capstone_part2</string>
+    <string name="title_activity_meus_anuncios">Meus anúncios</string>
+
+    <string-array name="estados">
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MG</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>PR</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SE</item>
+        <item>SP</item>
+        <item>TO</item>
+    </string-array>
+
+    <string-array name="racas">
+        <item>Boxer</item>
+        <item>Bulldogues Ingles</item>
+        <item>Bull Terrier</item>
+        <item>ChowChow</item>
+        <item>Collie</item>
+        <item>Corgi</item>
+        <item>Dogo Argentino</item>
+        <item>Doberman</item>
+        <item>Golden Retriever</item>
+        <item>Husky Siberiano</item>
+        <item>Leonberger</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Anunciar</string>
+    <string name="title_notifications">Favoritos</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="msg_subscribed">message firebase</string>
+
+    <string name="fb_node">EnrolledClasses</string>
+    <string name="fb_node2">className</string>
+
+
+    <string name="appwidget_text">My Enrolled Classes</string>
+    <string name="message_token_format" translatable="false">InstanceID Token: %s</string>
+
+
+    <!--NOTIFICAÇÕES-->
+
+    <string name="default_water_count">0</string>
+    <string name="default_charge_notification_count">Hydrate while charging reminder sent 0 times</string>
+
+    <plurals name="charge_notification_count">
+        <item quantity="zero">Hydrate while charging reminder sent %d times</item>
+        <item quantity="one">Hydrate while charging reminder sent %d time</item>
+        <item quantity="other">Hydrate while charging reminder sent %d times</item>
+    </plurals>
+
+
+    <!-- Strings for Notifications and Toasts -->
+    <string name="water_chug_toast">GLUG GLUG GLUG</string>
+
+    <string name="charging_reminder_notification_title">Device Charging - Where\'s that water?</string>
+    <string name="charging_reminder_notification_body">There\'s never a better time to drink water than when you know your phone is charging. Drink up!</string>
+    <string name="main_notification_channel_name">Primary</string>
+
+
+    <string name="transition_avatar">avatar</string>
+    <string name="digite_senha">Digite a senha!</string>
+    <string name="digite_email">Digite o email!</string>
+    <string name="digite_nome">Digite o nome!</string>
+    <string name="sucesso">Cadastrado com sucesso</string>
+    <string name="senha_segura">Digite uma senha mais segura, por favor!</string>
+    <string name="email_valido">Por favor, digite um e-mail válido</string>
+    <string name="conta_cadastrada">Conta já foi cadastrada</string>
+    <string name="ao_cadastrar">ao cadastrar usuário</string>
+    <string name="erro">Erro!</string>
+    <string name="detalhes_activity">Detalhes</string>
+    <string name="serializable">anunciosPet</string>
+    <string name="salvo_widget">Salvo em sua Widget</string>
+    <string name="action">Action</string>
+    <string name="desmarcado_favoritos">Desmarcado da sua Widget</string>
+    <string name="mail_to">mailto:</string>
+    <string name="meu_assunto">Meu assunto</string>
+    <string name="email_via" />
+    <string name="query">=?</string>
+    <string name="erro_ao_login">Erro ao fazer login, tente novamente</string>
+    <string name="titulo_app">Pets Show</string>
+
+    <string name="estado_desejado">Selecione o estado desejado</string>
+    <string name="tudo_ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="raca_selecione">Selecione a raça</string>
+    <string name="regiao_primeiro">Escolha primeiro uma região!</string>
+
+    <!--DATABASES CHILDs FIREBASE-->
+    <string name="anuncios_child">anuncios</string>
+    <string name="imagens_child">imagens</string>
+    <string name="meus_anuncios">meus_anuncios</string>
+
+
+    <string name="falha_upload">Falha ao fazer upload</string>
+    <string name="info">INFO</string>
+    <string name="equals_a_zero">0</string>
+    <string name="campo_descricao">Preencha o campo descrição</string>
+    <string name="campo_telefone">Preencha o campo telefone</string>
+    <string name="campo_valor">Preencha o campo valor</string>
+    <string name="campo_titulo">Preencha o campo título</string>
+    <string name="campo_categoria">Preencha o campo categoria</string>
+    <string name="campo_estado">Preencha o campo estado</string>
+    <string name="campo_3_fotos">Obrigatório com 3 fotos!</string>
+    <string name="portugues">pt</string>
+    <string name="BRASIL_BR">BR</string>
+    <string name="negado_permissao">Permissões Negadas</string>
+    <string name="necessario_permissao">Para utilizar o app é necessário aceitar as permissões</string>
+    <string name="confirmacao">Confirmar</string>
+    <string name="removido">Removido</string>
+    <string name="adotou_animal">Olá , já adotou um animalzinho hoje ? =)</string>
+    <string name="postagens_notifications">Veja novas postagens que separamos para você</string>
+    <string name="nao_obrigado">Não, obrigado.</string>
+    <string name="cadastre_noticiations">Clique aqui para se cadastrar ou no ícone à direita...</string>
+
+    <!-- Layouts-->
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastre">Cadastre-se</string>
+    <string name="sem_conexao">Sem conexão...</string>
+    <string name="nenhum_cao_anunciado">Nenhum cão anunciado nesta região ainda...</string>
+    <string name="click_true">true</string>
+    <string name="raca">Raça</string>
+    <string name="estado">Estado</string>
+    <string name="ver_telefone">Ver telefone</string>
+    <string name="titulo">Titulo:</string>
+    <string name="titulo_">titulo</string>
+    <string name="preco">Preço:</string>
+    <string name="preco_exemplo">R$ 250</string>
+    <string name="local">Localização:</string>
+    <string name="est">SP</string>
+    <string name="desc">Descrição:</string>
+    <string name="descricao_ex">descrição...</string>
+    <string name="aguarde_">Aguarde...</string>
+    <string name="titul">titulo</string>
+    <string name="titulo_capa_widget">Telefones Pet\'s Show</string>
+    <string name="cadastrar_entrar">Cadastrar / Entrar</string>
+    <string name="sair">Sair</string>
+
+
+</resources>

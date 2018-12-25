@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/widget_receita_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/titul"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

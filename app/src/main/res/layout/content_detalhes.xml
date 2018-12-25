@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/activity_detalhes">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <FrameLayout
+                        android:id="@+id/root"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/button7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|bottom"
+                            android:onClick="visualizarTelefone"
+                            android:src="@android:drawable/stat_sys_phone_call"
+                            android:text="@string/ver_telefone"
+                            app:fabSize="mini"
+                            tools:ignore="OnClick" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/butte"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:onClick="enviarEmail"
+                            app:srcCompat="@drawable/email"
+                            app:fabSize="mini"
+                            tools:ignore="OnClick" />
+
+                    </FrameLayout>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="9dp"
+                        app:elevation="9dp"
+                        app:cardCornerRadius="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/titulo"
+                                android:textSize="26sp" />
+
+                            <TextView
+                                android:id="@+id/textTituloDetalhe"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/titulo_"
+                                android:textColor="@android:color/holo_green_dark"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="9dp"
+                        android:layout_marginTop="5dp"
+                        app:elevation="9dp"
+                        app:cardCornerRadius="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/preco"
+                                android:textSize="26sp" />
+
+                            <TextView
+                                android:id="@+id/textPrecoDetalhe"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/preco_exemplo"
+                                android:textColor="@android:color/holo_green_dark"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="9dp"
+                        android:layout_marginTop="5dp"
+                        android:elevation="9dp"
+                        app:cardCornerRadius="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="9dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/local"
+                                android:textSize="26sp" />
+
+                            <TextView
+                                android:id="@+id/textEstadoDetalhe"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_local_roxo_24dp"
+                                android:padding="8dp"
+                                android:text="@string/est"
+                                android:textSize="18sp"
+                                android:textColor="@android:color/holo_red_dark"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="9dp"
+                        android:layout_marginTop="5dp"
+                        app:elevation="9dp"
+                        app:cardCornerRadius="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/desc"
+                                android:textSize="26sp" />
+
+                            <TextView
+                                android:id="@+id/textDescricaoDetalhe"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:paddingTop="8dp"
+                                android:paddingBottom="10dp"
+                                android:text="@string/descricao_ex"
+                                android:textColor="@android:color/holo_green_dark"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</android.support.v4.widget.NestedScrollView>
