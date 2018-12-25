@@ -12,7 +12,7 @@ Está com dificuldades de vender filhotes da sua ninhada de cães ou de adotá-l
   - Ative a autenticação em "Métodos de Login"
   - Ative a regra do Database como teste
   - Em Storage, crie uma pasta imagens/anuncio
-  - A assinatura do aplicativo você pode implementar logo na build.gradle
+  - A assinatura do aplicativo você pode implementar logo na build.gradle em signingConfigs
   
 ### Preview
   
